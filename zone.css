@@ -1,0 +1,257 @@
+body{
+  overflow-x: hidden;
+  margin-left: 0;
+  
+}
+
+/* Style for the navigation bar */
+.navbar {
+  position: absolute; /* Positioning the navbar relative to the parent container */
+  top: 0; /* Aligns it to the top of the container */
+  width: 100%; /* Makes it span the full width of the page */
+  z-index: 10; /* Ensures it stays on top of the image */
+  background: rgba(255, 255, 255, 0); /* Adds a semi-transparent white background */
+  padding: 10px 0; /* Adds some padding */
+   /* Adds a slight shadow for better visibility */
+}
+.menuNavbar
+{
+  padding-right: 50px;
+}
+/* Style for the image container */
+.content{
+  
+  position: relative;
+}
+
+
+
+.homepicture {
+    position: relative; /* Make this div the reference point for absolute positioning */
+    width: 110%; /* Adjust width as needed */
+    height: 130%; /* Adjust height as needed */
+    margin-top: -300px;
+    
+  }
+  
+  .redBox {
+    position: absolute; 
+    top: 100px; /* Adjust top value as needed */
+    left: 100px; /* Adjust left value as needed */
+    margin-top: 100px;
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+   /* Color of the red box */
+    z-index: 10; /* Ensure it is on top of the .homepicture */
+  }
+  
+  
+  .blueclr {
+    height: 520px;
+    width: 1522px;
+    background-color: rgb(134, 238, 55); /* Light green */
+    position: relative; /* Absolute positioning to stack the divs */
+    top: 95px;
+    left: 0;
+  }
+  
+  .blueback {
+    height: 100px;
+    width: 1522px;
+    background-color: rgb(16, 113, 211); /* Blue */
+    position: absolute; /* Absolute positioning to stack the divs */
+    top: 700px; /* This moves it over the .blueclr div */
+    left: 0;
+    z-index: 1; /* Ensures .blueback is on top of .blueclr */
+  
+  }
+  .grass {
+    height: 700px;
+    width: 1522px;
+    background-color: rgb(170, 168, 180); /* Grayish color */
+    margin-top: 170px;
+    position: relative; /* Position context for the child div */
+}
+
+.circle {
+    height: 155px;
+    width: 155px;
+    margin-top: -685px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative; /* Position it relative to the .grass div */
+    top: 50%; /* Place it in the vertical center of the .grass div */
+    left: 38%; /* Place it in the horizontal center of the .grass div */
+    transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.circle2{
+  height: 155px;
+  width: 155px;
+  margin-top: -157px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: relative; /* Position it relative to the .grass div */
+  top: 50%; /* Place it in the vertical center of the .grass div */
+  left: 52%; /* Place it in the horizontal center of the .grass div */
+  transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.circle3{
+  height: 155px;
+  width: 155px;
+  margin-top: -155px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: relative; /* Position it relative to the .grass div */
+  top: 50%; /* Place it in the vertical center of the .grass div */
+  left: 66%; /* Place it in the horizontal center of the .grass div */
+  transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.square{
+  height: 465px;
+  width: 380px;
+  margin-top: 200px;
+  background-color: rgb(247, 237, 237);
+  position: relative; /* Position it relative to the .grass div */
+  top: 40%; /* Place it in the vertical center of the .grass div */
+  left: 22%; /* Place it in the horizontal center of the .grass div */
+  transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.square2{
+  height: 465px;
+  width: 380px;
+  margin-top: -466px;
+  background-color: rgb(247, 245, 245);
+  position: relative; /* Position it relative to the .grass div */
+  top: 40%; /* Place it in the vertical center of the .grass div */
+  left: 55%; /* Place it in the horizontal center of the .grass div */
+  transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.square3{
+  height: 465px;
+  width: 380px;
+  margin-top: -466px;
+  background-color: rgb(247, 245, 245);
+  position: relative; /* Position it relative to the .grass div */
+  top: 40%; /* Place it in the vertical center of the .grass div */
+  left: 85%; /* Place it in the horizontal center of the .grass div */
+  transform: translate(-50%, -50%); /* Offset the element to center it exactly */
+}
+.background {
+  height: 700px;
+  width: 1522px;
+  background-color: rgb(170, 168, 180); /* Grayish color */
+  margin-top: -131px;
+  position: relative; /* Position context for the child div */
+
+
+}
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url('blur3t2\)[1].jpg'); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  color: #000;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.testimonial-box.highlight {
+  background-color: #0078d7;
+  color: #fff;
+}
+
+.testimonial-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info h4 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  
+  padding: 20px;
+  background-color: #444; /* Container background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b3b3b3; /* Input background */
+  font-size: 14px;
+  color: #000; /* Input text color */
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000; /* Button background */
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #333; /* Button hover effect */
+}
